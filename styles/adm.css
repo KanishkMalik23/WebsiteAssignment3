@@ -1,0 +1,82 @@
+.admContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+
+}
+*{
+margin: 0;
+padding: 0;
+overflow-x: hidden
+}
+h3{
+text-align: center;
+color: rgb(99, 173, 243);
+}
+.container{
+    font-size: 1.1rem;
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin: auto;
+margin-top: 10px;
+padding: 8px;
+border: 1px solid rgb(189, 181, 181);
+justify-content: center;
+}
+.section{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.Text{
+background-color: rgb(161, 202, 253);
+padding:10px;
+border-radius: 8px;
+font-size: 15px;
+}
+.nameContainer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.inputLabel{
+width: 25vw;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.textLabel{
+width: 100vw;
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+.optionContainer{
+width: 50vw;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 3vw;
+}
+#depart{
+width: 15vw;
+font-size: 12px;
+box-sizing: border-box;
+padding: 3px;}
+.btnContainer{
+display: flex;
+flex-direction: row;
+width: max-content;
+margin: auto;
+gap: 10px;
+}
+button{
+padding: 5px;
+border: 1px solid gray;
+border-radius: 4px;
+width: 5vw;
+}
+label{
+font-weight: bold;
+}

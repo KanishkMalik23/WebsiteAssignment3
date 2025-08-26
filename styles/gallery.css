@@ -1,0 +1,13 @@
+.galleryContainer{
+    display: flex;
+    flex-direction: column;
+}
+.galleryImgContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    flex-wrap: wrap;
+    width: 90vw;
+    align-self: center;
+    align-items: center;
+}

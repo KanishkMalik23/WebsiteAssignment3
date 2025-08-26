@@ -1,0 +1,33 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+}
+.AboutMainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vw;
+
+}
+.aboutContent{
+    padding: 20px;
+    margin: 5px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+p{
+    color: rgb(56, 55, 55);
+}
+ul{
+    color: gray;
+}
+.ImageContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 20vw;
+    height: 30vh;
+
+}
